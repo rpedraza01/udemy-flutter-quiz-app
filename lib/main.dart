@@ -26,7 +26,8 @@ class _MyAppState extends State<MyApp> {
         {'text': 'Black', 'score': 10},
         {'text': 'Red', 'score': 5},
         {'text': 'Green', 'score': 3},
-        {'text': 'White', 'score': 1}
+        {'text': 'White', 'score': 1},
+        {'text': 'None of the above', 'score': 0}
       ],
     },
     {
@@ -35,16 +36,38 @@ class _MyAppState extends State<MyApp> {
         {'text': 'Rabbit', 'score': 2},
         {'text': 'Snake', 'score': 8},
         {'text': 'Elephant', 'score': 3},
-        {'text': 'Lion', 'score': 6}
+        {'text': 'Lion', 'score': 6},
+        {'text': 'None of the above', 'score': 0}
       ],
     },
     {
       'questionText': "Who's your favorite instructor?",
       'answers': [
-        {'text': 'Max', 'score': 2},
-        {'text': 'Max', 'score': 2},
-        {'text': 'Max', 'score': 2},
-        {'text': 'Max', 'score': 2}
+        {'text': 'Max', 'score': 6},
+        {'text': 'Merrit', 'score': 2},
+        {'text': 'Eunika', 'score': 1},
+        {'text': 'Al', 'score': 4},
+        {'text': 'None of the above', 'score': 0}
+      ],
+    },
+    {
+      'questionText': "Who's your favorite person?",
+      'answers': [
+        {'text': 'Barack Obama', 'score': 2},
+        {'text': 'Captain America', 'score': 3},
+        {'text': 'Batman', 'score': 4},
+        {'text': 'Petey', 'score': 1},
+        {'text': 'None of the above', 'score': 0}
+      ],
+    },
+    {
+      'questionText': "What's your favorite team?",
+      'answers': [
+        {'text': 'Yankees', 'score': 1},
+        {'text': 'Red Sox', 'score': 10},
+        {'text': 'Blazers', 'score': 1},
+        {'text': 'Lakers', 'score': 10},
+        {'text': 'None of the above', 'score': 0}
       ],
     },
   ];
